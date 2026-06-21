@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/status_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TTS: ✗ Not Ready\nAccessibility: ✗ Disabled"
+        android:textSize="14sp"
+        android:padding="16dp"
+        android:background="#F0F0F0"
+        android:layout_marginBottom="24dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_initialize_tts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_initialize_tts"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn_speak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_speak"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn_scroll_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_scroll_down"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn_enable_accessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_enable_accessibility"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn_enable_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_enable_notification" />
+
+</LinearLayout>
