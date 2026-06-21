@@ -1,0 +1,49 @@
+# Gradle
+.gradle
+/build
+/captures
+.gradle/
+*.gradle~
+
+# Local configuration file (SDK path, etc)
+local.properties
+
+# Android
+bin/
+gen/
+out/
+*.apk
+*.ap_
+*.dex
+
+# Proguard
+proguard/
+*.pro~
+
+# IDE
+.idea/
+.classpath
+.project
+*.swp
+*.swo
+*~
+*.iml
+.DS_Store
+
+# AndroidStudio
+.gradle
+.idea
+local.properties
+*.iml
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.LSOverride
+*.iml
+
+# Misc
+*.log
