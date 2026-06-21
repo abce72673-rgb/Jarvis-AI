@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jarvis AI</string>
+    <string name="accessibility_service_description">Jarvis AI Accessibility Service for UI automation and interaction</string>
+    <string name="notification_service_label">Jarvis AI Notification Listener</string>
+    <string name="btn_initialize_tts">Initialize TTS</string>
+    <string name="btn_speak">Speak</string>
+    <string name="btn_scroll_down">Scroll Down</string>
+    <string name="btn_enable_accessibility">Enable Accessibility Service</string>
+    <string name="btn_enable_notification">Enable Notification Listener</string>
+    <string name="status_tts_ready">TTS Ready</string>
+    <string name="status_tts_not_ready">TTS Not Ready</string>
+    <string name="status_accessibility_enabled">Accessibility Service Enabled</string>
+    <string name="status_accessibility_disabled">Accessibility Service Disabled</string>
+    <string name="jarvis_greeting">Sir, main online hoon</string>
+</resources>
